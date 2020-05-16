@@ -1,0 +1,37 @@
+html, body{
+    margin: 0%;
+    padding: 0%;
+  }
+    #weather{
+  
+        width: 500px;
+        padding: 10px;
+        border-radius: 10px;
+        z-index: -1;
+    }
+  
+    #weather div{
+      background-color: rgb(87, 204, 243);
+        color: black;
+        margin: 10px;
+        padding: 5px;
+        border-radius: 5px;
+        filter: opacity(0.8);
+        font-size: 1.5em;
+    }
+  
+    #background{
+        background: linear-gradient(37deg, blue, lightblue);
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        transition: all 1s;
+        z-index: -5;
+    }
+    #static{
+      background: ;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      z-index: -10;
+    }
